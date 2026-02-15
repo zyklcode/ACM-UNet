@@ -1,0 +1,19 @@
+# 忽略训练 checkpoint 文件夹下所有内容
+checkpoint/
+
+# 忽略日志文件夹下所有内容
+log/
+
+# 忽略预训练权重相关文件夹
+pretrain/
+model/pretrain/
+model/vim/
+
+# 忽略所有 .log 后缀的日志文件（包括子目录中的）
+**/*.log
+
+__pycache__/
+
+.vscode/
+
+**/*.pyc
